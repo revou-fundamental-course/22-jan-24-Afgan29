@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>E-Groceries</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h3><img src="images/logo/logo.avif" alt="logo-grocery" height="75px" width="75px"></h3>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#packagesHeader">Our Package</a></li>
+          <li><a href="#call">Call Us</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section id="home">
+          <h2>Top Rated E-Groceries Shop in Indonesia</h2>
+          <h5>Every Day with best ingredients</h5>
+
+          <div class="home row">
+            <div class="banner column">
+              <figure>
+                <img src="images/buah.jpg" alt="Groceries" class="slide-img">
+                <img src="images/sayuran.jpg" alt="Groceries" class="slide-img">
+                <img src="images/sembako.jpg" alt="Groceries" class="slide-img">
+                <figcaption>"setiap hari beli kebutuhan sembako, sayur dan buah segar disini"</figcaption>
+              </figure>
+              <div class="icon-with-description" id="user">
+                <div class="circle"><img src="images/icons/user-regular.svg" class="icon"></div>
+                <div class="column">
+                  <span class="small bold">Ayu Belianna Barokah</span>
+                  <span id="user-caption">ibu rumah tangga, 27</span>
+                </div>
+              </div>
+              <div class="divider"></div>
+            </div>
+            <div class="form-container">
+              <div>
+                <h4>Hubungi Kami!</h4>
+                <p>sales akan menghubungi anda 1x24 setelah data kami terima.</p>
+              </div>
+              <form name="contactUs">
+                <label for="name" class="small bold">Nama:</label>
+                <input type="text" name="name" id="name" placeholder="Nama Lengkap" autocomplete="name">
+                <label for="email" class="small bold">Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" autocomplete="email">
+                <label for="interest" class="small bold">Apa yang membuat Anda tertarik?</label>
+                <select name="interest" id="interest">
+                  <option value="0" disabled selected>Pilih Opsi</option>
+                  <option value="1">Buah</option>
+                  <option value="2">Sayur</option>
+                  <option value="3">Lain-lain</option>
+                </select>
+                <button type="button" id="submitBtn">KIRIM</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="features">
+            <span class="small bold">Rasakan lambang kenyamanan dengan layanan e-grocery kami. Berikut adalah keuntungan yang bisa Anda dapatkan dengan menggunakan Grocer-E:</span>
+            <div class="icon-with-description">
+              <div class="circle">1</div>
+              <p>Grocer-E memberikan kenyamanan berbelanja bahan makanan dari rumah Anda.</p>
+            </div>
+            <div class="icon-with-description">
+              <div class="circle">2</div>
+              <p>Pilihan produk yang luas dan beragam, memastikan akses ke segala sesuatu, mulai dari kebutuhan sehari-hari hingga barang-barang khusus.</p>
+            </div>
+            <div class="icon-with-description">
+              <div class="circle">3</div>
+              <p>Nikmati jaminan kesegaran dengan produk berkualitas, memastikan setiap makanan yang Anda santap terasa segar, bernutrisi, dan memiliki cita rasa terbaik.</p>
+            </div>
+          </div>
+        </section>
+
+        <div id="packagesHeader" class="header">
+          <h2>Our Packages</h2>
+        </div>
+        <section id="packages">
+          <div class="row">
+            <div class="package">
+              <div class="icon-with-description">
+                <div class="circle"><img src="images/icons/carrot-solid.svg" class="icon"></div>
+                <div class="desc">
+                  <span class="small bold">Sayuran Segar</span>
+                  <p>sayuran segar langsung dari pertanian terbaik</p>
+                </div>
+              </div>
+            </div>
+            <div class="package">
+              <div class="icon-with-description">
+                <div class="circle"><img src="images/icons/apple-whole-solid.svg" class="icon"></div>
+                <div class="desc">
+                  <span class="small bold">Buah Segar</span>
+                  <p>buah dengan kualitas terbaik dari lokal atau impor dan harga yang menarik</p>
+                </div>
+              </div>
+            </div>
+            <div class="package">
+              <div class="icon-with-description">
+                <div class="circle"><img src="images/icons/truck-solid.svg" class="icon"></div>
+                <div class="desc">
+                  <span class="small bold">Pengiriman Instan</span>
+                  <p>dikirim instan oleh kurir yang telah ditraining dengan SOP untuk menjaga kondisi belanja kamu</p>
+                </div>
+              </div>
+            </div>
+            <div class="package">
+              <div class="icon-with-description">
+                <div class="circle"><img src="images/icons/cubes-stacked-solid.svg" class="icon"></div>
+                <div class="desc">
+                  <span class="small bold">Bahan-bahan dapur</span>
+                  <p>bumbu dapur lengkap untuk keperluan memasak kamu</p>
+                </div>
+              </div>
+            </div>
+            <div class="package">
+              <div class="icon-with-description">
+                <div class="circle"><img src="images/icons/kitchen-set-solid.svg" class="icon"></div>
+                <div class="desc">
+                  <span class="small bold">Alat-alat dapur</span>
+                  <p>sefala jenis alat memasak untuk membantumu</p>
+                </div>
+              </div>
+            </div>
+            <div class="package">
+              <div class="icon-with-description">
+                <div class="circle"><img src="images/icons/box-open-solid.svg" class="icon"></div>
+                <div class="desc">
+                  <span class="small bold">Paket Set</span>
+                  <p>bingung masak apa? sudah tersedia paket untuk kamu memasak di dapur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="call">
+          <h2>Tingkatkan Keseharian Anda dengan Grocer-E: Di mana Kesegaran Bertemu dengan Kenyamanan, Sekali Klik!</h2>
+          <p>Temukan kenyamanan dan kesegaran yang tak tertandingi di Grocer-E. Tingkatkan kualitas makanan Anda dengan beragam pilihan produk premium yang diantarkan langsung ke rumah Anda. Kualitas dan kenyamanan di ujung jari Anda!</p>
+          <button>CALL TO ACTION</button>
+        </section>
+      </main>
+
+      <footer>
+        <h3><img src="images/logo/logo.avif" alt="" height="75px" width="75px"></h3>
+        <p>Terms of Service &nbsp;&nbsp; Privacy Policy</p>
+        <p>© 2024 &nbsp;&nbsp; made by Afgan Faturrohman</p>
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
